@@ -43,6 +43,12 @@ class Book(models.Model):
         return reverse("book_detail", args=[self(self.id)])
 
     # https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django/Models
+    
+    def display_genre(self):
+        " Create a string for the Genre. This is required to display genre in Admin "
+        return ', '.join(genre.name for genre in self.genre.all()[:3])
+    
+    display_genre.short_description = "Genre" #
 
 
 class BookInstance(models.Model):
@@ -55,3 +61,45 @@ class BookInstance(models.Model):
                           help_text="Unique ID for this particular book ")
     book = models.ForeignKey("Book", on_delete=models.RESTRICT, null=True)
     imprint = models.CharField(max_length=200)
+    due_back = models.DateTimeField(null=True, blank=True)
+    
+    LOAN_STATUS = (
+        ("m", "Maintenance"),
+        ("o", "On Loan"),
+        ('a', "Available"),
+        ('r', "Reserved"),
+    )
+    status = models.CharField(max_length=1, choices=LOAN_STATUS, blank=True, default = "m", help_text = "Book availiability")
+    
+    class Meta:
+        ordering = ["due_back"]
+        
+    def __str__(self):
+        "String for representing the Model object "
+        return f"{self.id} ({self.book.title})"
+    
+
+class Author(models.Model):
+    """Model representing an author
+
+    Args:
+        models ([type]): [description]
+    """
+    first_name = models.CharField(max_length = 100)
+    last_name = models.CharField(max_length = 100)
+    date_of_birth = models.DateTimeField(null=True, blank=True)
+    date_of_death = models.DateTimeField("Died", null=True, blank=True)
+    
+    class Meta:
+        ordering = ["last_name", "first_name"]
+        
+    def get_absolute_url(self):
+        "Returns the url to access a particular author instance "
+        return reverse("author-detail", args = [self(self.id)])
+    
+
+    
+    def __str__(self):
+        """String for representing the Model object. 
+        """
+        return f'{self.last_name}, {self.first_name}'
