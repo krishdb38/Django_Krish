@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block contents %}
+
+<h1>Product Table </h1>
+
+
+
+<div class="row mt-5">
+    <div class="col-12">
+        <table class="table table-light">
+            <thead class="thead-light">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Product Name</th>
+                    <th scope="col">Price</th>
+                    <th scope="col">Registered Date </th>
+                </tr>
+
+
+            </thead>
+            <tbody class="text-dark">
+                {% for product in  product_list %}
+                <tr>
+                <th scope="row">{{product.id}}</th>
+                <th scope="row"><a href="/product/{{product.id}}">{{product.name}} </a> </th>
+                <th scope="row">{{product.price|intcomma}}</th>
+                <th scope="row">{{product.register_date|date:"Y-m-d H:i"}}</th>
+
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+  
+
+  
+{% endblock contents %}

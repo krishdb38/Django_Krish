@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "fcuser",
     "order",
-    "product"
+    "product",
+    "django.contrib.humanize", # beautiful design
 ]
 
 MIDDLEWARE = [

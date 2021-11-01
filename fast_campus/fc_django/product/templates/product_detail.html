@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% load humanize %}
+{% block contents %}
+<h1>Product Detail view </h1>
+
+
+<div class="row mt-5">
+    <div class="col-12">
+        <div class="card" style="width: 100%;">
+            <div class="card-header">
+                Sample Detail {{product.name}}
+            </div>
+            <ul class="list-group list-group-flush">
+                <form action="/order/create/" method="POST">
+                    {% csrf_token %}
+                    {% for field in form %}
+                    <div class="form-group">
+                        
+                    </div>
+
+
+                    <div class="form-group row mt-5">
+                        {% ifnotequal field.name 'product' %}
+                        <label for="{{ field.id_for_label }}">{{field.label }} </label>
+                        {% endifnotequal %}
+                        <input type="{{ field.field.widget.input_type }}" class="form-control"
+                            id="{{field.id_for_label}}" placeholder="{{ field.label }}" name="{{field.name }} " 
+                            value="{% ifequal field.name 'product' %} {{product.id}} {% endifequal %}">
+                    </div>
+                    {% if field.errors %}
+                    <span style="color:red">{{field.errors }}</span>
+                    {% endif %}
+                    {% endfor %}
+                    <hr class="my-4" />
+                    <button class="btn btn-primary btn-lg btn-block" type="submit">
+                        Submit
+                    </button>
+                </form>
+
+                <li class="list-group-item">{{product.id}}</li>
+                <li class="list-group-item">price {{product.price|intcomma}}</li>
+                <li class="list-group-item">{{product.register_date|date:"Y-m-d H:i"}}</li>
+                <li class="list-group-item">{{product.description|safe }}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <a href="/product/">List All products </a>
+    </div>
+</div>
+{% endblock contents %}
