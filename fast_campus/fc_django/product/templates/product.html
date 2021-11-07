@@ -1,5 +1,40 @@
 {% extends "base.html" %}
 {% load humanize %}
+
+{% block header %}
+  <script>
+    function product_detail(id){
+
+        $.ajax({
+        url: "/api/product/" + id + "/",
+        success: function( result ) {
+            console.log("krish")
+            $("#product-" + id ).popover({
+                html : true,
+                content : result.name + "<br>" + result.price
+            }).popover("show");
+
+        }
+        });
+    }
+
+    function product_leave(id) {
+        $("#product-" + id).popover("hide") ;
+    }
+
+
+$(document).ready(function()
+{
+$.ajax({
+url: "/api/product/",
+success: function( result ) {
+console.log(result)
+}
+});
+});
+
+  </script>
+{% endblock header %}
 {% block contents %}
 
 <h1>Product Table </h1>
@@ -23,7 +58,10 @@
                 {% for product in  product_list %}
                 <tr>
                 <th scope="row">{{product.id}}</th>
-                <th scope="row"><a href="/product/{{product.id}}">{{product.name}} </a> </th>
+                <th scope="row"><a id="product-{{product.id}}"
+                        onmouseenter="product_detail( {{ product.id }});"
+                        onmouseleave="product_leave({{product.id}})" href="/product/{{product.id}}">{{product.name}}
+                    </a> </th>
                 <th scope="row">{{product.price|intcomma}}</th>
                 <th scope="row">{{product.register_date|date:"Y-m-d H:i"}}</th>
 

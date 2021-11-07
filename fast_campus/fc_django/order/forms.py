@@ -2,8 +2,10 @@ from django import forms
 from django.http import request
 from product.forms import RegisterForm
 from fcuser.models import Fcuser
+from product.models import Product
 from .models import Order
 
+from django.db import transaction
 
 class RegisterForm(forms.Form):
     def __init__(self,request, *args, **kwargs):
@@ -26,13 +28,16 @@ class RegisterForm(forms.Form):
         fcuser = self.request.session.get("user")
         
         if quantity and product and fcuser :
-            order = Order (
-                quantity= quantity,
-                product = product, 
-                fcuser = Fcuser.objects.get(email = fcuser)
-            )
-            order.save()
+            with transaction.atomic():
+                prod = Product.objects.get(pk = Product)
+                order = Order (
+                    quantity= quantity,
+                    product = product, 
+                    fcuser = Fcuser.objects.get(email = fcuser)
+                )
+                order.save()
+                prod.stock -= quantity
         else:
             self.add_error("product", "no value")
             self.add_error("quantity", "no value")
-            self.add_error("product", "No Value ")
+            #self.add_error("product", "No Value ")

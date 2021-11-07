@@ -9,11 +9,11 @@ class Order(models.Model):
     
     def __str__(self):
         pass
-        return str(self.fcuser) + "_" + self.product
+        return str(self.fcuser) + "_" #+ self.product
         # foreign key need to change to string 
     
     
     class Meta:
         db_table = "fastcampus_order" # table Name
         verbose_name = "order" # can write in local language
-        verbose_name_plural = "orderes"
+        verbose_name_plural = "orderes" 

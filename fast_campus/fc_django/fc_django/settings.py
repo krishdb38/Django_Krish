@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     "order",
     "product",
     "django.contrib.humanize", # beautiful design
+    "rest_framework"
 ]
 
 MIDDLEWARE = [

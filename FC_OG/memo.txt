@@ -1,0 +1,2 @@
+Unzip folder using 7 zip
+there are korean file name which may create problem if your comp do not support Korean

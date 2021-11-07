@@ -1,8 +1,16 @@
+import django.http
 from django.shortcuts import render
 from django.views.generic import ListView, DetailView
 from django.views.generic.edit import FormView
 from product.models import Product
 from order.forms import RegisterForm as OrderForm
+
+# rest frame work view
+from rest_framework import generics
+from rest_framework import mixins
+
+from product.serializers import ProductSerializer
+
 
 from .forms import RegisterForm
 
@@ -29,3 +37,22 @@ class ProductDetail(DetailView):
         
         context["form"] = OrderForm(self.request)
         return context
+    
+class ProductListAPI(generics.GenericAPIView,mixins.ListModelMixin):
+    serializer_class = ProductSerializer
+    
+    def get_queryset(self):
+        return Product.objects.all().order_by("id")
+    
+    def get(self,request, *args, **kwargs):
+        return self.list(request, *args, **kwargs)
+    
+
+class ProductDetailAPI(generics.GenericAPIView, mixins.RetrieveModelMixin):
+    serializer_class = ProductSerializer
+
+    def get_queryset(self):
+        return Product.objects.all().order_by("id")
+
+    def get(self, request, *args, **kwargs):
+        return self.retrieve (request, *args, **kwargs)
