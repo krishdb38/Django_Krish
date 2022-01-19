@@ -1,0 +1,818 @@
+[
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "django_countries.fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django_countries.fields",
+        "description": "django_countries.fields",
+        "detail": "django_countries.fields",
+        "documentation": {}
+    },
+    {
+        "label": "CountryField",
+        "importPath": "django_countries.fields",
+        "description": "django_countries.fields",
+        "isExtraImport": true,
+        "detail": "django_countries.fields",
+        "documentation": {}
+    },
+    {
+        "label": "CountryField",
+        "importPath": "django_countries.fields",
+        "description": "django_countries.fields",
+        "isExtraImport": true,
+        "detail": "django_countries.fields",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "CountrySelectWidget",
+        "importPath": "django_countries.widgets",
+        "description": "django_countries.widgets",
+        "isExtraImport": true,
+        "detail": "django_countries.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "Coupon",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Refund",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "Sum",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectDoesNotExist",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "timezone",
+        "importPath": "django.utils",
+        "description": "django.utils",
+        "isExtraImport": true,
+        "detail": "django.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0001_initial",
+        "description": "core.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Address',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "core.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "OrderAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class OrderAdmin(admin.ModelAdmin):\n    list_display = [\n        \"user\", \"ordered\", \"being_delivered\", \"received\", \"refund_requested\", \"refund_granted\", \"shipping_address\", \"billing_address\",\"payment\", \"coupon\"\n    ]\n    list_display_links = [\n        \"user\", \"shipping_address\", \"billing_address\", \"payment_address\", \"payment\", \"coupon\"\n    ]\n    list_display_links = [\n        \"user\", \"shipping_address\", \"billing_address\", \"payment\", \"coupon\"\n    ]",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AddressAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class AddressAdmin(admin.ModelAdmin):\n    list_display = [\n        \"user\", \"street_address\", \"apartment_address\", \"country\", \"zip\", \"address_type\", \"default\"\n    ]\n    list_filter = [\"default\", \"address_type\", \"country\"]\n    search_fields = [\"user\", \"street_address\", \"apartment_address\", \"zip\"]\nadmin.site.register(Item)\nadmin.site.register(OrderItem)\nadmin.site.register(Order, OrderAdmin)\nadmin.site.register(Payment)",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "make_refund_accepted",
+        "kind": 2,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "def make_refund_accepted(modeladmin, request, queryset):\n    queryset.update(refund_requested = False , refund_granted = True)\nmake_refund_accepted.short_description = \"Update orders to refund granted\"\nclass OrderAdmin(admin.ModelAdmin):\n    list_display = [\n        \"user\", \"ordered\", \"being_delivered\", \"received\", \"refund_requested\", \"refund_granted\", \"shipping_address\", \"billing_address\",\"payment\", \"coupon\"\n    ]\n    list_display_links = [\n        \"user\", \"shipping_address\", \"billing_address\", \"payment_address\", \"payment\", \"coupon\"\n    ]",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "make_refund_accepted.short_description",
+        "kind": 5,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "make_refund_accepted.short_description = \"Update orders to refund granted\"\nclass OrderAdmin(admin.ModelAdmin):\n    list_display = [\n        \"user\", \"ordered\", \"being_delivered\", \"received\", \"refund_requested\", \"refund_granted\", \"shipping_address\", \"billing_address\",\"payment\", \"coupon\"\n    ]\n    list_display_links = [\n        \"user\", \"shipping_address\", \"billing_address\", \"payment_address\", \"payment\", \"coupon\"\n    ]\n    list_display_links = [\n        \"user\", \"shipping_address\", \"billing_address\", \"payment\", \"coupon\"",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CheckoutForm",
+        "kind": 6,
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "peekOfCode": "class CheckoutForm(forms.Form):\n    shipping_address = forms.CharField(required=False)\n    shipping_address2 = forms.CharField(required=False)\n    shipping_country = CountryField(blank_label = \"(Select country)\").formfield(required=False,\n                                                                                widget=CountrySelectWidget(attrs = {\"class\":\"custom-select d-block w-100\"}))\n    shipping_zip = forms.CharField(required=False)\n    billing_address = forms.CharField(required=False)\n    billing_address2 = forms.CharField(required=False)\n    billing_country = CountryField(blank_label = \"(select country)\").formfield(required=False,widget = CountrySelectWidget(attrs = {\n        \"class\":\"custom-select d-block w-100\"",
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CouponForm",
+        "kind": 6,
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "peekOfCode": "class CouponForm(forms.Form):\n    code = forms.CharField(widget=forms.TextInput(attrs={\n        \"class\":\"form-control\",\n        \"placeholder\":\"Promo code\",\n        \"aria-label\":\"Recipient\\'s username\",\n        \"aria-describedly\": \"basic-addon2\"\n    }))\nclass RefundForm(forms.Form):\n    ref_code = forms.CharField()\n    message = forms.CharField(widget=forms.Textarea(attrs={\"rows\":4}))",
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RefundForm",
+        "kind": 6,
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "peekOfCode": "class RefundForm(forms.Form):\n    ref_code = forms.CharField()\n    message = forms.CharField(widget=forms.Textarea(attrs={\"rows\":4}))\n    email = forms.EmailField()\nclass PaymentForm(forms.Form):\n    stripeToken = forms.CharField(required=False)\n    save = forms.BooleanField(required=False)\n    use_default = forms.BooleanField(required=False)",
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentForm",
+        "kind": 6,
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "peekOfCode": "class PaymentForm(forms.Form):\n    stripeToken = forms.CharField(required=False)\n    save = forms.BooleanField(required=False)\n    use_default = forms.BooleanField(required=False)",
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "PAYMENT_CHOICES",
+        "kind": 5,
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "peekOfCode": "PAYMENT_CHOICES = (\n    (\"S\", \"Stripe\"),\n    (\"P\", \"PayPal\")\n)\nclass CheckoutForm(forms.Form):\n    shipping_address = forms.CharField(required=False)\n    shipping_address2 = forms.CharField(required=False)\n    shipping_country = CountryField(blank_label = \"(Select country)\").formfield(required=False,\n                                                                                widget=CountrySelectWidget(attrs = {\"class\":\"custom-select d-block w-100\"}))\n    shipping_zip = forms.CharField(required=False)",
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserProfile",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class UserProfile(models.Model):\n    user = models.OneToOneField(\n        settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    stripe_customer_id = models.CharField(max_length=50, blank=True, null=True)\n    one_click_purchasing = models.BooleanField(default=False)\n    def __str__(self):\n        return self.user.username\nclass Item(models.Model):\n    title = models.CharField(max_length=100)\n    price = models.FloatField()",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Item",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Item(models.Model):\n    title = models.CharField(max_length=100)\n    price = models.FloatField()\n    discount_price = models.FloatField(blank=True, null=True)\n    category = models.CharField(choices=CATEGORY_CHOICES, max_length=2)\n    label = models.CharField(choices=LABEL_CHOICES, max_length=1)\n    slug = models.SlugField()\n    description = models.TextField()\n    image = models.ImageField()\n    def __str__(self):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "OrderItem",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class OrderItem(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL,\n                             on_delete=models.CASCADE)\n    ordered = models.BooleanField(default=False)\n    item = models.ForeignKey(Item, on_delete=models.CASCADE)\n    quantity = models.IntegerField(default=1)\n    def __str__(self):\n        return f\"{self.quantity} of {self.item.title}\"\n    def get_total_item_price(self):\n        return self.quantity * self.item.price",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Order",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Order(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL,\n                             on_delete=models.CASCADE)\n    ref_code = models.CharField(max_length=20, blank=True, null=True)\n    items = models.ManyToManyField(OrderItem)\n    start_date = models.DateTimeField(auto_now_add=True)\n    ordered_date = models.DateTimeField()\n    ordered = models.BooleanField(default=False)\n    shipping_address = models.ForeignKey(\n        'Address', related_name='shipping_address', on_delete=models.SET_NULL, blank=True, null=True)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Address",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Address(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL,\n                             on_delete=models.CASCADE)\n    street_address = models.CharField(max_length=100)\n    apartment_address = models.CharField(max_length=100)\n    country = CountryField(multiple=False)\n    zip = models.CharField(max_length=100)\n    address_type = models.CharField(max_length=1, choices=ADDRESS_CHOICES)\n    default = models.BooleanField(default=False)\n    def __str__(self):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Payment(models.Model):\n    stripe_charge_id = models.CharField(max_length=50)\n    user = models.ForeignKey(settings.AUTH_USER_MODEL,\n                             on_delete=models.SET_NULL, blank=True, null=True)\n    amount = models.FloatField()\n    timestamp = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return self.user.username\nclass Coupon(models.Model):\n    code = models.CharField(max_length=15)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Coupon",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Coupon(models.Model):\n    code = models.CharField(max_length=15)\n    amount = models.FloatField()\n    def __str__(self):\n        return self.code\nclass Refund(models.Model):\n    order = models.ForeignKey(Order, on_delete=models.CASCADE)\n    reason = models.TextField()\n    accepted = models.BooleanField(default=False)\n    email = models.EmailField()",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Refund",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Refund(models.Model):\n    order = models.ForeignKey(Order, on_delete=models.CASCADE)\n    reason = models.TextField()\n    accepted = models.BooleanField(default=False)\n    email = models.EmailField()\n    def __str__(self):\n        return f\"{self.pk}\"\ndef userprofile_receiver(sender, instance, created, *args, **kwargs):\n    if created:\n        userprofile = UserProfile.objects.create(user=instance)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "userprofile_receiver",
+        "kind": 2,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "def userprofile_receiver(sender, instance, created, *args, **kwargs):\n    if created:\n        userprofile = UserProfile.objects.create(user=instance)\npost_save.connect(userprofile_receiver, sender=settings.AUTH_USER_MODEL)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CATEGORY_CHOICES",
+        "kind": 5,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "CATEGORY_CHOICES = (\n    ('S', 'Shirt'),\n    ('SW', 'Sport wear'),\n    ('OW', 'Outwear')\n)\nLABEL_CHOICES = (\n    ('P', 'primary'),\n    ('S', 'secondary'),\n    ('D', 'danger')\n)",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "LABEL_CHOICES",
+        "kind": 5,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "LABEL_CHOICES = (\n    ('P', 'primary'),\n    ('S', 'secondary'),\n    ('D', 'danger')\n)\nADDRESS_CHOICES = (\n    ('B', 'Billing'),\n    ('S', 'Shipping'),\n)\nclass UserProfile(models.Model):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "ADDRESS_CHOICES",
+        "kind": 5,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "ADDRESS_CHOICES = (\n    ('B', 'Billing'),\n    ('S', 'Shipping'),\n)\nclass UserProfile(models.Model):\n    user = models.OneToOneField(\n        settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    stripe_customer_id = models.CharField(max_length=50, blank=True, null=True)\n    one_click_purchasing = models.BooleanField(default=False)\n    def __str__(self):",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "app_name = \"core\" \nurlpatterns = [\n    path('', HomeView.as_view(), name = \"home\")\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', HomeView.as_view(), name = \"home\")\n]",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "CheckoutView",
+        "kind": 6,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "class CheckoutView(View):\n    def get(self, *args, **kwargs):\n        try:\n            order = Order.objects.get(user = self.request.user, ordered = False)\n            form = CheckoutForm()\n            context = {\n                \"form\":form,\n                \"couponform\":CouponForm(),\n                \"order\":order,\n                \"DISPLAY_COUPON_FORM\":True",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_ref_code",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def create_ref_code():\n    \"Create random mix number \"\n    return ''.join(random.choices(string.ascii_lowercase + string.digits, k = 20))\ndef products(request):\n    context = {'items': Item.objects.all()}\n    return render(request, \"products.html\", context=context)\ndef is_valid_form(values):\n    valid = True\n    for field in values:\n        if field == \"\":",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "products",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def products(request):\n    context = {'items': Item.objects.all()}\n    return render(request, \"products.html\", context=context)\ndef is_valid_form(values):\n    valid = True\n    for field in values:\n        if field == \"\":\n            # when not valid\n            valid = False\n    return valid",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "is_valid_form",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def is_valid_form(values):\n    valid = True\n    for field in values:\n        if field == \"\":\n            # when not valid\n            valid = False\n    return valid\nclass CheckoutView(View):\n    def get(self, *args, **kwargs):\n        try:",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "stripe.api_key",
+        "kind": 5,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "stripe.api_key = settings.STRIPE_SECRET_KEY\n# Create your views here.\ndef create_ref_code():\n    \"Create random mix number \"\n    return ''.join(random.choices(string.ascii_lowercase + string.digits, k = 20))\ndef products(request):\n    context = {'items': Item.objects.all()}\n    return render(request, \"products.html\", context=context)\ndef is_valid_form(values):\n    valid = True",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "forstorekr.asgi",
+        "description": "forstorekr.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "forstorekr.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-^c!1!3e%!nn&z#ci+6_h06&i0foh1*6ysld4114tk@2pe$kd4!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"localhost\",\"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-^c!1!3e%!nn&z#ci+6_h06&i0foh1*6ysld4114tk@2pe$kd4!'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = [\"localhost\",\"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = [\"localhost\",\"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "ALLOWED_HOSTS = [\"localhost\",\"127.0.0.1\"]\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"core\"",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"core\"\n]\nMIDDLEWARE = [",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'forstorekr.urls'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "ROOT_URLCONF = 'forstorekr.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'forstorekr.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/3.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_L10N",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "USE_L10N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/3.2/howto/static-files/\nSTATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "STATIC_URL = '/static/'\n# Default primary key field type\n# https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "forstorekr.settings",
+        "description": "forstorekr.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "forstorekr.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "forstorekr.urls",
+        "description": "forstorekr.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path(\"accounts/\", include('allauth.urls')),\n    path('', include(\"core.urls\"), namespace = \"core\")\n]\nif settings.DEBUG:\n    import debug_toolbar\n    urlpatterns += [path(\"__debug__/\", include(debug_toolbar.urls))]\n    urlpatterns += static(settings.MEDIA_URL, document_root = settings.MEDIA_ROOT)\n    urlpatterns += static(settings.STATIC_URL, document_root = settings.STATIC_ROOT)",
+        "detail": "forstorekr.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "forstorekr.wsgi",
+        "description": "forstorekr.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "forstorekr.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'forstorekr.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
