@@ -1,0 +1,29 @@
+<label for=""> Paste Detail </label>
+<p>
+    <div>
+        <label for="">ID</label>
+        <span> {{ object.id }} </span>
+    </div>
+
+    <div>
+        <label for=""> Name</label>
+        <span> {{ object.name }} </span>
+    </div>
+
+    <div>
+        <label for=""> Text</label>
+        <span>{{ object.text }} </span>
+    </div>
+    <div>
+        <label for="">Created</label>
+        <span>
+            {{ object.created_on}}
+        </span>
+    </div>
+    <div>
+        <label for="">Modified</label>
+        <span>
+            {{object.updated_on}}
+        </span>
+    </div>
+</p>
