@@ -1,0 +1,1 @@
+https://www.geeksforgeeks.org/college-management-system-using-django-python-project/
