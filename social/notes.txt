@@ -1,0 +1,2 @@
+https://realpython.com/django-social-network-1/#step-1-set-up-the-base-project
+this project is follow up project from this site
