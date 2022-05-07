@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:ajax}/db.sqlite3",
+            "name": "sql_ajax"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
